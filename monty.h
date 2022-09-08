@@ -1,5 +1,6 @@
 #ifndef MONTY_H
 #define MONTY_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -65,3 +66,5 @@ void _mod(stack_t **h, unsigned int line_number);
 int add_end_node(stack_t **h, int n);
 void delete_end_node(stack_t **h);
 void free_dlist(stack_t **h);
+
+#endif
