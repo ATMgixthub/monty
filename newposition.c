@@ -74,3 +74,4 @@ void rotr(stack_t **h, unsigned int line_number)
 		tmp->prev = NULL;
 		(*h) = (*h)->prev;
 	}
+}
