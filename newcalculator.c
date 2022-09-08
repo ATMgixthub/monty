@@ -91,3 +91,4 @@ void _mod(stack_t **h, unsigned int line_number)
 	(*h) = (*h)->next;
 	free((*h)->prev);
 	(*h)->prev = NULL;
+}
