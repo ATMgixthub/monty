@@ -58,3 +58,4 @@ void pop(stack_t **h, unsigned int line_number)
 	}
 	else
 		delete_end_node(h);
+}
