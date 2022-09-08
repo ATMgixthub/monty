@@ -74,3 +74,4 @@ void free_dlist(stack_t **h)
 		free((*h)->prev);
 	}
 	free(*h);
+}
